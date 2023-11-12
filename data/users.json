@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "username": "sondos.zaro",
+        "email":"sondos.zaro@gmail.com",
+        "password": "sondosZaro"
+    },
+    {
+        "id":2,
+        "username": "lama-shaheen",
+        "email":"lama.shaheen@gmail.com",
+        "password": "shaheenshaheen"
+    },
+    {
+        "id":3,
+        "username": "ali-nat",
+        "email":"ali111.na@gmail.com",
+        "password": "ali98na12"
+    }
+]
