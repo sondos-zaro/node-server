@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Login</title>
+    <style>
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    
+  
+
+    <form action="/loggin" method="post">
+        <!-- Email input -->
+        <h2>Loggin</h2><br>
+        <div class="form-outline mb-4">
+          <input type="email" id="form2Example1" name="email" required class="form-control" />
+          <label class="form-label" for="form2Example1">Email address</label>
+        </div>
+      
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input type="password" id="form2Example2" name="password" required class="form-control" />
+          <label class="form-label" for="form2Example2">Password</label>
+        </div>
+      
+        <!-- Submit button -->
+        <input type="submit" value="Submit" class="btn btn-primary btn-block mb-4">
+      
+        <!-- Register buttons -->
+        <div class="text-center">
+          <p>Not a member? <a href="register">Register</a></p>
+    
+          <button type="button" class="btn btn-link btn-floating mx-1">
+          </button>
+        </div>
+      </form>
+</body>
+</html

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Login</title>
+    <style>
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <form action="/register" method="post">
+        <!-- Email input -->
+        <h2>Register</h2><br>
+        <div class="form-outline mb-4">
+          <label class="form-label" for="form2Example1">Email address</label> 
+          <input type="email" id="form2Example1" class="form-control"  name="email" required />
+
+        </div>
+      
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <label class="form-label" for="form2Example2">Password</label>
+          <input type="password" id="form2Example2" class="form-control"  name="password" required/>
+          
+        </div>
+      
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form2Example3">Age</label>
+            <input type="number" id="form2Example3" class="form-control"  name="age" required/>  
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form2Example4">First Name</label>
+            <input type="text" id="form2Example4" class="form-control"  name="firstName" required />  
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form2Example">Last Name</label>
+            <input type="text" id="form2Example5" class="form-control"  name="lastName" required/>    
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form2Example">Username</label>
+            <input type="text" id="form2Example5" class="form-control"  name="username" required/>    
+        </div>
+        <!-- Submit button -->
+        <input type="submit" value="Submit" class="btn btn-primary btn-block mb-4">
+      
+        <!-- Register buttons -->
+        <div class="text-center">
+          <p>Do you have an account<a href="loggin">Login</a></p>
+    
+          <button type="button" class="btn btn-link btn-floating mx-1">
+          </button>
+        </div>
+      </form>
+</body>
+</html>

@@ -1,20 +1,43 @@
 [
     {
-        "id":1,
+        "id": 1,
         "username": "sondos.zaro",
-        "email":"sondos.zaro@gmail.com",
+        "email": "sondos.zaro@gmail.com",
         "password": "sondosZaro"
     },
     {
-        "id":2,
+        "id": 2,
         "username": "lama-shaheen",
-        "email":"lama.shaheen@gmail.com",
+        "email": "lama.shaheen@gmail.com",
         "password": "shaheenshaheen"
     },
     {
-        "id":3,
+        "id": 3,
         "username": "ali-nat",
-        "email":"ali111.na@gmail.com",
+        "email": "ali111.na@gmail.com",
         "password": "ali98na12"
+    },
+    {
+        "email": "sondos.zaro@gmail.com",
+        "password": "2321"
+    },
+    {
+        "id": "d2be7592-ef98-4137-9fd8-a4ff0f732347",
+        "email": "sooos@hotmail.com",
+        "password": "121"
+    },
+    {
+        "id": "18482a0c-c60c-4c88-bf9f-3aea0b15c683",
+        "email": "fregsr@fdg.com",
+        "password": "efkew"
+    },
+    {
+        "id": "611e0a38-2d76-4f62-ab14-9c97fd692b06",
+        "email": "sondos.zaro@gmail.com",
+        "password": "dgrds",
+        "age": "21",
+        "firstName": "wed",
+        "lastName": "wrew",
+        "username": "rewer"
     }
 ]
